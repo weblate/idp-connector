@@ -13,4 +13,8 @@ permissions:
 
 jobs:
   build:
-    uses: axonivy-market/github-workflows/.github/workflows/dev.yml@v4
+    uses: axonivy-market/github-workflows/.github/workflows/dev.yml@v6
+    with:
+        ivyVersion: nightly-10
+        ivyPluginVersion: 10.0.17
+        testerVersion: 10.0.16
